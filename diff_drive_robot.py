@@ -11,8 +11,9 @@ from ompl import control as oc
 def isStateValid(spaceInformation, state):
     #Function to check validity of state
     #IMPLEMENT THIS FUNCTION: it should return True or False only
-    return False
+    #return False return True or False depending on state validity
   
 def propagate(state_in, control, duration, state_out):
     #Use the sample controls to propogate to new state
     #IMPLEMENT THIS FUNCTION TO PROPOGATE FROM state_in GIVEN THE CONTROL INPUT control FOR THE DURATION duration AND ASSIGN THE RESULTANT STATE IN state_out
+    #store your calculated output state in this variable : state_out
